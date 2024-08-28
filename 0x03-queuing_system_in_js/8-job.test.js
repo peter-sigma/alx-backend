@@ -1,7 +1,7 @@
 import { createQueue } from 'kue';
 import { expect } from 'chai';
 import { spy } from 'sinon';
-import createPushNotificationsJobs from './8-jobs';
+import createPushNotificationsJobs from './8-job';
 
 describe('createPushNotifications unit tests', () => {
   const queue = createQueue();
